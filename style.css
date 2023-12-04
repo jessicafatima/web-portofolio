@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #cc06cc2c;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #5c035c2c;
+    border-bottom: 1px solid green;
+}
+.logo {
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: green;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: green;
+    transition: 0.5s;
+}
+.btn {
+    background-color: green;
+    color: green
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid green;
+    background-color: blueviolet;
+}
+.image {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    /* transform: rotate(180deg); */
+}
+.image img {
+    width: 50%;
+    position: absolute;
+    right: 23%;
+    transform: translateX(20%);
+}
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h4 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1 {
+    color: black;
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+h3 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.content a {
+    font-size: 20px;
+    background: green;
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    transition: .5s;
+}
+.content a:hover {
+    background: purple;
+    border: 2px solid green;
+}
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #5c035c2c;
+}
+.about-me {
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img {
+    height: auto;
+    width: 250px;
+    border-radius: 8px;
+}
+.about-text {
+    width: 550px;
+}
+.about-text h2 {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid green;
+}
+.about-text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.button {
+    background-color: green;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.button:hover {
+    background-color: #5c035c2c;
+    border: 2px solid green;
+    cursor: pointer;
+}
+.Project {
+    background: #5c035c2c;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2 {
+    color: black;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 270px;
+    padding: 20px 35px;
+    background: #5c035c2c;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid green;
+}
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: green;
+}
+.card h5 {
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p {
+    color: black;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+/* .pra p a {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+.pra p a {
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+} */
+.Skill {
+    background: #5c035c2c;
+    width: 100%;
+    padding: 100px 0;
+}
+.Skill-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+.Skill-bar p {
+    text-align: left;
+}
+.Skill-box {
+    text-align: right;
+    width: 100%;
+    background-color: black;
+}
+.html {
+    width: 75%;
+    background-color: green;
+}
+.css {
+    width: 75%;
+    background-color: green;
+}
+.mikrotik {
+    width: 88%;
+    background-color: green;
+}
+.debian {
+    width: 80%;
+    background-color: green;
+}
+.contact-me {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #5c035c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-text h2 {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-box {
+    color: black;
+}
+.contact-box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.contact {
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.contact h4 {
+    color: green;
+    padding-bottom: 10px;
+}
+.contact p {
+    font-size: 18px;
+    
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #5c035c2c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2) {
+    color: purple
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.sosial {
+    display: flex;
+}
+.sosial a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: black;
+    border: 2px solid black;
+}
+.sosial a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+    background: transparent;
+    border: 2px solid green;
+}
+.end {
+    position: absolute;
+    color: black;
+    bottom: 65px;
+    font-size: 16px;
+}
+
